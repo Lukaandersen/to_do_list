@@ -1,0 +1,94 @@
+.update-controller {
+  display: none;
+}
+
+html {
+  min-height: 100%;
+}
+body {
+  background: linear-gradient(254deg, #4f4c63 0%, rgb(150, 90, 240) 90%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.input-header {
+  position: relative;
+  max-width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.to-do-input {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+
+.to-do-input > input[type="text"] {
+  width: 90%;
+  color: #0b0a0a;
+  border: none;
+  border-bottom: 2px solid #080808;
+  background: none;
+  padding: 10px;
+  font-size: 22px;
+  outline: none;
+}
+
+.to-do-input button {
+  margin: 0 auto;
+  background: #222;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+textarea {
+  font-size: 20px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+#date {
+  float: right;
+  font-size: large;
+}
+
+.todo-box {
+  background-color: rgb(215, 238, 250);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+.todo {
+  text-align: center;
+}
+
+.complete {
+  text-align: center;
+}
+
+.to-do-list {
+  text-align: center;
+}
+
+.completed-box {
+  background-color: rgb(215, 238, 250);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.completed-list {
+  text-align: center;
+}
